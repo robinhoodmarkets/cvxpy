@@ -28,7 +28,6 @@ setup(
     zip_safe=False,
     description='A domain-specific language for modeling convex optimization problems in Python.',
     install_requires=["ecos >= 2",
-                      "scs >= 1.1.3",
                       "multiprocess",
                       "fastcache",
                       "six",
